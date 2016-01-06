@@ -105,7 +105,7 @@ class Request extends AbstractMessage implements RequestInterface
     /**
      * {@inheritdoc}
      */
-    protected function getStartLine()
+    protected function getStartLine(): string
     {
         return sprintf(
             "%s %s HTTP/%s\r\n",
