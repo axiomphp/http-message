@@ -55,7 +55,7 @@ abstract class AbstractMessage implements MessageInterface
     /**
      * {@inheritdoc}
      */
-    public function __toString()
+    public function __toString(): string
     {
         $str = $this->getStartLine();
 
