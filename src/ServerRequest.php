@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace AxiomPhp\Http\Message;
 
-use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UriInterface;
 
