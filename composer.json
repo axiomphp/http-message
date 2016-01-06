@@ -1,0 +1,26 @@
+{
+  "name": "axiomphp/http-message",
+  "description": "PSR-7 compliant HTTP message implementation",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "psr",
+    "psr-7",
+    "http",
+    "message"
+  ],
+  "homepage": "https://github.com/axiomphp/http-message",
+  "support": {
+    "issues": "https://github.com/axiomphp/http-message/issues",
+    "source": "https://github.com/axiomphp/http-message"
+  },
+  "require": {
+    "php": "^7.0",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AxiomPhp\\Http\\Message\\": "src/"
+    }
+  }
+}
